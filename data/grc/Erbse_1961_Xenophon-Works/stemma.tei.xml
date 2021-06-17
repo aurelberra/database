@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="openStemmata.rng"" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable"/>
+            <author/>
+            <respStmt>
+               <resp>contributed to OpenStemmata by</resp>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date/><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note/>
+         </notesStmt>
+         <sourceDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title/>
+           <persName/>
+           <origDate/>
+           <origPlace/>
+        </creation>
+        <textClass>
+           <keywords>
+
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <graph type="directed" order="4" size="3"><node xml:id="n_A" type="hypothetical" inDegree="0" outDegree="2"><label>A</label></node><node xml:id="n_Acorrected" type="witness" inDegree="1" outDegree="1"><label>Acorrected</label></node><node xml:id="n_groupd" type="hypothetical" inDegree="1" outDegree="0"><label>d</label></node><node xml:id="n_D" type="witness" inDegree="1" outDegree="0"><label>D</label></node><arc from="#n_A" to="#n_D" od:type="filiation" cert="unknown"/><arc from="#n_A" to="#n_Acorrected" od:type="filiation" cert="unknown"/><arc from="#n_Acorrected" to="#n_groupd" od:type="filiation" cert="unknown"/></graph>
+      </body>
+  </text>
+</TEI>

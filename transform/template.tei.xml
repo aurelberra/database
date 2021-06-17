@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="openStemmata.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="openStemmata.rng"" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:od="http://openstemmata.github.io/odd.html">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="standard">Stemma of</title>
+            <title type="variable"></title>
+            <author></author>
+            <respStmt>
+               <resp>contributed to OpenStemmata by</resp>
+               <persName></persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <orgName>Openstemmata</orgName>
+               <ptr target="https://openstemmata.github.io/"/>
+            </authority>
+            <date></date><!-- File creation date? -->
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0">CC BY</licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note></note>
+         </notesStmt>
+         <sourceDesc>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <creation>
+           <title></title>
+           <persName></persName>
+           <origDate></origDate>
+           <origPlace></origPlace>
+        </creation>
+        <textClass>
+           <keywords>
+
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <revisionDesc>
+        <change></change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <graph></graph>
+      </body>
+  </text>
+</TEI>
