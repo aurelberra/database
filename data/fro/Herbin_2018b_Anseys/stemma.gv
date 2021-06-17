@@ -7,7 +7,7 @@ digraph {
     O -> x;
     x -> y;
 
-    y -> Art;
+    y -> Art; 
     y -> L;
     y -> U¹;
 
