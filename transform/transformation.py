@@ -61,7 +61,7 @@ if len(sys.argv) > 1:
     nx.write_graphml(G, changed_file[0:-3] + '.graphml', encoding="utf-8")
 
 
-    tree = et.parse('/home/gustavo/Dokumente/OpenStemmata/test/template.tei.xml')
+    tree = et.parse('./transform/template.tei.xml')
     root = tree.getroot()
 
     ns = {'tei': 'http://www.tei-c.org/ns/1.0', 'od': 'http://openstemmata.github.io/odd.html' }

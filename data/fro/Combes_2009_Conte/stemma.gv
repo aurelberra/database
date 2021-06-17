@@ -1,7 +1,7 @@
 digraph {
     O->O1;
     O1 ->Ab;
-    O1->Ac;
+    O1->Ac; 
     Ac->Aa;
 
     O[color="grey"];
