@@ -24,7 +24,7 @@ jobs:
           for changed_file in ${{ steps.files.outputs.added_modified }}; do
             if [ "${changed_file: -3}" == ".gv" ] ; 
               then echo "Converting ${changed_file}."
-              python ./generateTeiGraphml.py ${changed_file} ; 
+              python ./transform/transformation.py ${changed_file} ; 
             fi
           done
       - name: Commit

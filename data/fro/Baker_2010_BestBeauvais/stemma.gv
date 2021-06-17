@@ -9,7 +9,7 @@ digraph {
     w -> P;
     w-> x;
     x -> Mon;
-    x -> y;
+    x -> y; 
     y -> V;
     y -> f;
     y -> z;
