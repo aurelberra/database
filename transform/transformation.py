@@ -10,6 +10,8 @@ from lxml import etree as et
 # for changed_file in $( find . -name '*.gv' ) ; do python ./transform/transformation.py $changed_file ; done
 # 
 
+attributes_regex = '(\w+)="([^"]*)",?\s*'
+
 if len(sys.argv) > 1:
     changed_file = str(sys.argv[1])
 
@@ -33,7 +35,7 @@ if len(sys.argv) > 1:
                     nodes[dest] = {}
                 edge_attr = {'type': 'filiation', 'cert': 'unknown'}
                 if '[' in noAttrib:
-                    attributes = re.findall('(\w+)="(\w*)",?\s?', line)    
+                    attributes = re.findall(attributes_regex, line)    
                     for attr in attributes:
                         if attr[0] == 'style':
                             if attr[1] == 'dashed':
@@ -47,7 +49,7 @@ if len(sys.argv) > 1:
             elif '[' in noAttrib:
                 node = re.split('\[', noAttrib)[0].strip()
                 nodes[node] = {}
-                attributes = re.findall('(\w+)="(\w*)",?\s?', line)
+                attributes = re.findall(attributes_regex, line)    
                 for attr in attributes:
                     nodes[node][attr[0]] = attr[1]
 
