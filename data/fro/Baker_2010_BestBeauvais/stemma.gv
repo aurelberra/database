@@ -11,7 +11,7 @@ digraph {
     x -> Mon;
     x -> y; 
     y -> V;
-    y -> f;
+    y -> f; 
     y -> z;
     z -> Ph;
     z -> B;

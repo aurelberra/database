@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
+        with: 
+          ref: ${{ github.ref }}
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -30,5 +32,4 @@ jobs:
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
-          branch: transform
           commit_message: Auto-Generation TEI
