@@ -5,6 +5,7 @@
 <key id="d0" for="node" attr.name="color" attr.type="string"/>
 <graph edgedefault="directed"><node id="original">
   <data key="d0">grey</data>
+  <data key="d1">Or.</data>
 </node>
 <node id="archetyp">
   <data key="d0">grey</data>
@@ -15,6 +16,7 @@
 </node>
 <node id="starXY">
   <data key="d0">grey</data>
+  <data key="d1">*XY</data>
 </node>
 <node id="Y">
   <data key="d0">grey</data>
@@ -23,14 +25,19 @@
   <data key="d0">grey</data>
   <data key="d1"></data>
 </node>
-<node id="q1slashq"/>
+<node id="q1slashq">
+  <data key="d1">q1/q</data>
+</node>
 <node id="2">
   <data key="d0">grey</data>
   <data key="d1"></data>
 </node>
-<node id="f1slashf"/>
+<node id="f1slashf">
+  <data key="d1">f1</data>
+</node>
 <node id="starF">
   <data key="d0">grey</data>
+  <data key="d1">*F</data>
 </node>
 <node id="alpha">
   <data key="d0">grey</data>
@@ -42,28 +49,40 @@
 </node>
 <node id="starBEbe">
   <data key="d0">grey</data>
+  <data key="d1">*BEbe</data>
 </node>
 <node id="starEb">
   <data key="d0">grey</data>
+  <data key="d1">*Eb</data>
 </node>
 <node id="questionprime">
   <data key="d0">grey</data>
+  <data key="d1">?</data>
 </node>
-<node id="e1slashe"/>
+<node id="e1slashe">
+  <data key="d1">e1/e</data>
+</node>
 <node id="starNRS">
   <data key="d0">grey</data>
+  <data key="d1">*NRS</data>
 </node>
 <node id="starnN">
   <data key="d0">grey</data>
+  <data key="d1">*nN</data>
 </node>
-<node id="zslashz1"/>
+<node id="zslashz1">
+  <data key="d1">z/z1</data>
+</node>
 <node id="oe">
   <data key="d1">ö</data>
 </node>
 <node id="starRS">
   <data key="d0">grey</data>
+  <data key="d1">*RS</data>
 </node>
-<node id="starS"/>
+<node id="starS">
+  <data key="d1">*S</data>
+</node>
 <node id="4">
   <data key="d0">grey</data>
   <data key="d1"></data>
@@ -74,9 +93,11 @@
 </node>
 <node id="starOP">
   <data key="d0">grey</data>
+  <data key="d1">*OP</data>
 </node>
 <node id="questionsec">
   <data key="d0">grey</data>
+  <data key="d1">?</data>
 </node>
 <node id="6">
   <data key="d0">grey</data>
