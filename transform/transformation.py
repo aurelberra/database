@@ -146,7 +146,7 @@ if len(sys.argv) > 1:
                 cont = re.findall('"([^"]*)"', line)[0]
                 el = bibl.find('./tei:author', ns)
                 el.text = cont
-                el2 = titleStmt.find('./author')
+                el2 = titleStmt.find('./tei:author', ns)
                 el2.text = cont
             elif re.match('^[\s]*publicationPage', line):
                 cont = re.findall('"([^"]*)"', line)[0]
