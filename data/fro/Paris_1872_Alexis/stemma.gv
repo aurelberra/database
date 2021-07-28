@@ -1,4 +1,4 @@
-digraph {
+digraph { 
     O -> x;
     x -> a;
     a -> L;

@@ -1,5 +1,4 @@
 digraph {
-
     omega -> alpha;
     alpha -> O;
     omega -> beta
