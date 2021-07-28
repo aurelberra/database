@@ -8,7 +8,7 @@ digraph {
     1[color="grey", label=""]
     q1slashq[label="q1/q"]
     2[color="grey", label=""]
-    f1slashf[label="f1/1"]
+    f1slashf[label="f1"]
     starF[color="grey", label="*F"]
     alpha[color="grey", label="α"]
     beta[color="grey", label="β"]
