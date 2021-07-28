@@ -34,11 +34,13 @@
 </node>
 <node id="deltaprime">
   <data key="d0">grey</data>
+  <data key="d1">d'</data>
 </node>
 <node id="C"/>
 <node id="V7"/>
 <node id="deltasecond">
   <data key="d0">grey</data>
+  <data key="d1">d''</data>
 </node>
 <node id="3">
   <data key="d0">grey</data>
