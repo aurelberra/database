@@ -1,5 +1,4 @@
 digraph {
-
     alpha -> beta
     alpha -> gamma
     beta -> epsilon

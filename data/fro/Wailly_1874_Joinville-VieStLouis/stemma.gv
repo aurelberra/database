@@ -7,7 +7,7 @@ digraph {
 
     D -> J;
     D -> TD;
-
+    
     J -> H;
     J -> TJ;
     H -> A;
