@@ -24,7 +24,7 @@ jobs:
       - name: Run transformation
         run: |
           for changed_file in ${{ steps.files.outputs.added_modified }}; do
-            if [ "${changed_file: -3}" == ".gv" ] ; 
+            if [ "${changed_file: -9}" == "stemma.gv" ] || [ "${changed_file: -12}" == "metadata.txt" ] ; 
               then echo "Converting ${changed_file}."
               python ./transform/transformation.py ${changed_file} ; 
             fi
